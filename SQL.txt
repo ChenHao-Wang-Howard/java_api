@@ -1,0 +1,12 @@
+CREATE DATABASE HealthServiceCenters;
+
+USE HealthServiceCenters;
+
+CREATE TABLE Centers (
+    CenterName VARCHAR(255),
+    URL VARCHAR(255),
+    DistrictCode INT,
+    Address VARCHAR(255),
+    Phone VARCHAR(20),
+    PRIMARY KEY (DistrictCode)
+);
