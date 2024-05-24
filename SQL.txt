@@ -10,3 +10,13 @@ CREATE TABLE Centers (
     Phone VARCHAR(20),
     PRIMARY KEY (DistrictCode)
 );
+
+CREATE TABLE `centers` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `CenterName` varchar(255) DEFAULT NULL,
+  `URL` varchar(255) DEFAULT NULL,
+  `DistrictCode` int DEFAULT NULL,
+  `Address` varchar(255) DEFAULT NULL,
+  `Phone` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
